@@ -7,8 +7,7 @@ import About from './components/About';
 const routes = (
   <App>
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
+      <Route exact path='/home' component={Home} />
     </Switch>
   </App>
 )
